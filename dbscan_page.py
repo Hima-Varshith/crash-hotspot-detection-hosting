@@ -184,7 +184,7 @@ def render_map_and_metrics_with_dbscan(df, filters_dict, col1, col2, show_outlie
 def render_dbscan_page(df: pd.DataFrame):
     st.markdown(
         """
-        <h1>🚗 Colorado Crash Hotspot with DBSCAN Clustering</h1>
+        <h1>🚗 Colorado Fatal Crashes Hotspot Explorer - Data Mining Project</h1>
         <p>Identify crash hotspots across Colorado using DBSCAN (2015–2023)</p>
         """,
         unsafe_allow_html=True,
